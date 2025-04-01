@@ -20,4 +20,7 @@ const json = JSON.parse(fs.readFileSync('dados.json'));
 //Exemplo de inserção de vários documentos na coleção Livraria utilizando o método insertMany
 
 db["Livraria"].insertMany([
+    {
+        codigo: 9,
+    }
 ]);
